@@ -1,7 +1,6 @@
 import pygame
 import sys
 import random
-#from moviepy.editor import VideoFileClip
 from fighter import Fighter
 from button import *
 from Selectplayer import *
@@ -55,27 +54,6 @@ countdown_font_1 = pygame.font.Font("Assets/Fonts/Turok.ttf", 200)
 countdown_font_2 = pygame.font.Font("Assets/Fonts/Turok.ttf", 220)
 score_font = pygame.font.Font("Assets/Fonts/Turok.ttf", 35)
 Mana_maxed_font = pygame.font.Font("Assets/Fonts/Shock.ttf", 35)
-
-# function for displaying introduction video and wait for user to press space bar to continue
-"""def display_intro_video():
-    clip = VideoFileClip("Assets/intro/intro_2.mp4")
-    clip = clip.without_audio()  # disable audio track
-    clip = clip.set_fps(60)
-
-    # loop to display each frame of the video
-    for frame in clip.iter_frames():
-        frame_surface = pygame.image.frombuffer(frame, clip.size, "RGB")
-        screen.blit(frame_surface, (0, -70))
-        pygame.display.update()
-
-        # check if space bar is pressed to skip intro video
-        for event in pygame.event.get():
-            if event.type == pygame.KEYDOWN:
-                if event.key == pygame.K_SPACE:
-                    return
-
-    # wait a certain time after the end of the video
-    pygame.time.wait(100)"""
 
 def reset_game():
     global score, countdown, round_over, fighter_1, fighter_2, last_count_update, game_time
@@ -192,7 +170,7 @@ def intro_screen():
     screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
     manage_music("play2")
     # Load background image and scale it to fit the screen
-    original_background_image = pygame.image.load("Assets/BackGrounds/Background_start_menu2.png")
+    original_background_image = pygame.image.load("Assets/BackGrounds/start_menu.png")
     background_image = pygame.transform.scale(original_background_image, (SCREEN_WIDTH, SCREEN_HEIGHT))
 
     ### main_menu_font = pygame.font.Font(None, 32)
@@ -253,9 +231,6 @@ def intro_screen():
 
         # Update display
         pygame.display.update()
-
-# call intro function
-#display_intro_video()
 
 # Call the intro_screen function
 intro_screen()

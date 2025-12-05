@@ -2,82 +2,82 @@ import pygame
 
 def load_spritesheets():
     # function that downloads the fighters spritesheets for each action
-    idle_fantasy_warrior_sprite_sheet = pygame.image.load("Assets/Fighters/Fantasy Warrior/Sprites/Idle.png")
-    run_fantasy_warrior_sprite_sheet = pygame.image.load("Assets/Fighters/Fantasy Warrior/Sprites/Run.png")
-    jump_fantasy_warrior_sprite_sheet = pygame.image.load("Assets/Fighters/Fantasy Warrior/Sprites/Jump.png")
-    fall_fantasy_warrior_sprite_sheet = pygame.image.load("Assets/Fighters/Fantasy Warrior/Sprites/Fall.png")
-    attack1_fantasy_warrior_sprite_sheet = pygame.image.load("Assets/Fighters/Fantasy Warrior/Sprites/Attack1.png")
-    attack2_fantasy_warrior_sprite_sheet = pygame.image.load("Assets/Fighters/Fantasy Warrior/Sprites/Attack2.png")
-    hit_fantasy_warrior_sprite_sheet = pygame.image.load("Assets/Fighters/Fantasy Warrior/Sprites/Take Hit.png")
-    death_fantasy_warrior_sprite_sheet = pygame.image.load("Assets/Fighters/Fantasy Warrior/Sprites/Death.png")
-    attack3_fantasy_warrior_sprite_sheet = pygame.image.load("Assets/Fighters/Fantasy Warrior/Sprites/Attack3.png")
+    idle_fantasy_warrior_sprite_sheet = pygame.image.load("Assets/Fighters/Fantasy Warrior/Idle.png")
+    run_fantasy_warrior_sprite_sheet = pygame.image.load("Assets/Fighters/Fantasy Warrior/Run.png")
+    jump_fantasy_warrior_sprite_sheet = pygame.image.load("Assets/Fighters/Fantasy Warrior/Jump.png")
+    fall_fantasy_warrior_sprite_sheet = pygame.image.load("Assets/Fighters/Fantasy Warrior/Fall.png")
+    attack1_fantasy_warrior_sprite_sheet = pygame.image.load("Assets/Fighters/Fantasy Warrior/Attack1.png")
+    attack2_fantasy_warrior_sprite_sheet = pygame.image.load("Assets/Fighters/Fantasy Warrior/Attack2.png")
+    hit_fantasy_warrior_sprite_sheet = pygame.image.load("Assets/Fighters/Fantasy Warrior/Take Hit.png")
+    death_fantasy_warrior_sprite_sheet = pygame.image.load("Assets/Fighters/Fantasy Warrior/Death.png")
+    attack3_fantasy_warrior_sprite_sheet = pygame.image.load("Assets/Fighters/Fantasy Warrior/Attack3.png")
 
-    idle_wizard_sprite_sheet = pygame.image.load("Assets/Fighters/Evil Wizard/Sprites/Idle.png")
-    run_wizard_sprite_sheet = pygame.image.load("Assets/Fighters/Evil Wizard/Sprites/Run.png")
-    jump_wizard_sprite_sheet = pygame.image.load("Assets/Fighters/Evil Wizard/Sprites/Jump.png")
-    fall_wizard_sprite_sheet = pygame.image.load("Assets/Fighters/Evil Wizard/Sprites/Fall.png")
-    attack1_wizard_sprite_sheet = pygame.image.load("Assets/Fighters/Evil Wizard/Sprites/Attack1.png")
-    attack2_wizard_sprite_sheet = pygame.image.load("Assets/Fighters/Evil Wizard/Sprites/Attack2.png")
-    hit_wizard_sprite_sheet = pygame.image.load("Assets/Fighters/Evil Wizard/Sprites/Take Hit.png")
-    death_wizard_sprite_sheet = pygame.image.load("Assets/Fighters/Evil Wizard/Sprites/Death.png")
+    idle_wizard_sprite_sheet = pygame.image.load("Assets/Fighters/Evil Wizard/Idle.png")
+    run_wizard_sprite_sheet = pygame.image.load("Assets/Fighters/Evil Wizard/Run.png")
+    jump_wizard_sprite_sheet = pygame.image.load("Assets/Fighters/Evil Wizard/Jump.png")
+    fall_wizard_sprite_sheet = pygame.image.load("Assets/Fighters/Evil Wizard/Fall.png")
+    attack1_wizard_sprite_sheet = pygame.image.load("Assets/Fighters/Evil Wizard/Attack1.png")
+    attack2_wizard_sprite_sheet = pygame.image.load("Assets/Fighters/Evil Wizard/Attack2.png")
+    hit_wizard_sprite_sheet = pygame.image.load("Assets/Fighters/Evil Wizard/Take Hit.png")
+    death_wizard_sprite_sheet = pygame.image.load("Assets/Fighters/Evil Wizard/Death.png")
 
-    idle_martial_hero_sprite_sheet = pygame.image.load("Assets/Fighters/Martial Hero/Sprites/Idle.png")
-    run_martial_hero_sprite_sheet = pygame.image.load("Assets/Fighters/Martial Hero/Sprites/Run.png")
-    jump_martial_hero_sprite_sheet = pygame.image.load("Assets/Fighters/Martial Hero/Sprites/Going Up.png")
-    fall_martial_hero_sprite_sheet = pygame.image.load("Assets/Fighters/Martial Hero/Sprites/Going Down.png")
-    attack1_martial_hero_sprite_sheet = pygame.image.load("Assets/Fighters/Martial Hero/Sprites/Attack1.png")
-    attack2_martial_hero_sprite_sheet = pygame.image.load("Assets/Fighters/Martial Hero/Sprites/Attack2.png")
-    hit_martial_hero_sprite_sheet = pygame.image.load("Assets/Fighters/Martial Hero/Sprites/Take Hit.png")
-    death_martial_hero_sprite_sheet = pygame.image.load("Assets/Fighters/Martial Hero/Sprites/Death.png")
-    attack3_martial_hero_sprite_sheet = pygame.image.load("Assets/Fighters/Martial Hero/Sprites/Attack3.png")
+    idle_martial_hero_sprite_sheet = pygame.image.load("Assets/Fighters/Martial Hero/Idle.png")
+    run_martial_hero_sprite_sheet = pygame.image.load("Assets/Fighters/Martial Hero/Run.png")
+    jump_martial_hero_sprite_sheet = pygame.image.load("Assets/Fighters/Martial Hero/Going Up.png")
+    fall_martial_hero_sprite_sheet = pygame.image.load("Assets/Fighters/Martial Hero/Going Down.png")
+    attack1_martial_hero_sprite_sheet = pygame.image.load("Assets/Fighters/Martial Hero/Attack1.png")
+    attack2_martial_hero_sprite_sheet = pygame.image.load("Assets/Fighters/Martial Hero/Attack2.png")
+    hit_martial_hero_sprite_sheet = pygame.image.load("Assets/Fighters/Martial Hero/Take Hit.png")
+    death_martial_hero_sprite_sheet = pygame.image.load("Assets/Fighters/Martial Hero/Death.png")
+    attack3_martial_hero_sprite_sheet = pygame.image.load("Assets/Fighters/Martial Hero/Attack3.png")
 
-    idle_oni_samurai_sprite_sheet = pygame.image.load("Assets/Fighters/Oni Samurai/Sprites/Idle.png")
-    run_oni_samurai_sprite_sheet = pygame.image.load("Assets/Fighters/Oni Samurai/Sprites/Run.png")
-    jump_oni_samurai_sprite_sheet = pygame.image.load("Assets/Fighters/Oni Samurai/Sprites/Jump.png")
-    fall_oni_samurai_sprite_sheet = pygame.image.load("Assets/Fighters/Oni Samurai/Sprites/Fall.png")
-    attack1_oni_samurai_sprite_sheet = pygame.image.load("Assets/Fighters/Oni Samurai/Sprites/Attack1.png")
-    attack2_oni_samurai_sprite_sheet = pygame.image.load("Assets/Fighters/Oni Samurai/Sprites/Attack2.png")
-    hit_oni_samurai_sprite_sheet = pygame.image.load("Assets/Fighters/Oni Samurai/Sprites/Take Hit.png")
-    death_oni_samurai_sprite_sheet = pygame.image.load("Assets/Fighters/Oni Samurai/Sprites/Death.png")
+    idle_oni_samurai_sprite_sheet = pygame.image.load("Assets/Fighters/Oni Samurai/Idle.png")
+    run_oni_samurai_sprite_sheet = pygame.image.load("Assets/Fighters/Oni Samurai/Run.png")
+    jump_oni_samurai_sprite_sheet = pygame.image.load("Assets/Fighters/Oni Samurai/Jump.png")
+    fall_oni_samurai_sprite_sheet = pygame.image.load("Assets/Fighters/Oni Samurai/Fall.png")
+    attack1_oni_samurai_sprite_sheet = pygame.image.load("Assets/Fighters/Oni Samurai/Attack1.png")
+    attack2_oni_samurai_sprite_sheet = pygame.image.load("Assets/Fighters/Oni Samurai/Attack2.png")
+    hit_oni_samurai_sprite_sheet = pygame.image.load("Assets/Fighters/Oni Samurai/Take Hit.png")
+    death_oni_samurai_sprite_sheet = pygame.image.load("Assets/Fighters/Oni Samurai/Death.png")
 
-    idle_samurai_sprite_sheet = pygame.image.load("Assets/Fighters/Samurai/Sprites/Idle.png")
-    run_samurai_sprite_sheet = pygame.image.load("Assets/Fighters/Samurai/Sprites/Run.png")
-    jump_samurai_sprite_sheet = pygame.image.load("Assets/Fighters/Samurai/Sprites/Jump.png")
-    fall_samurai_sprite_sheet = pygame.image.load("Assets/Fighters/Samurai/Sprites/Fall.png")
-    attack1_samurai_sprite_sheet = pygame.image.load("Assets/Fighters/Samurai/Sprites/Attack1.png")
-    attack2_samurai_sprite_sheet = pygame.image.load("Assets/Fighters/Samurai/Sprites/Attack2.png")
-    hit_samurai_sprite_sheet = pygame.image.load("Assets/Fighters/Samurai/Sprites/Take Hit 2.png")
-    death_samurai_sprite_sheet = pygame.image.load("Assets/Fighters/Samurai/Sprites/Death.png")
+    idle_samurai_sprite_sheet = pygame.image.load("Assets/Fighters/Samurai/Idle.png")
+    run_samurai_sprite_sheet = pygame.image.load("Assets/Fighters/Samurai/Run.png")
+    jump_samurai_sprite_sheet = pygame.image.load("Assets/Fighters/Samurai/Jump.png")
+    fall_samurai_sprite_sheet = pygame.image.load("Assets/Fighters/Samurai/Fall.png")
+    attack1_samurai_sprite_sheet = pygame.image.load("Assets/Fighters/Samurai/Attack1.png")
+    attack2_samurai_sprite_sheet = pygame.image.load("Assets/Fighters/Samurai/Attack2.png")
+    hit_samurai_sprite_sheet = pygame.image.load("Assets/Fighters/Samurai/Take Hit 2.png")
+    death_samurai_sprite_sheet = pygame.image.load("Assets/Fighters/Samurai/Death.png")
 
 
-    idle_Squire_sprite_sheet = pygame.image.load("Assets/Fighters/Squire/Sprites/Idle.png")
-    run_Squire_sprite_sheet = pygame.image.load("Assets/Fighters/Squire/Sprites/Run.png")
-    jump_Squire_sprite_sheet = pygame.image.load("Assets/Fighters/Squire/Sprites/Jump.png")
-    fall_Squire_sprite_sheet = pygame.image.load("Assets/Fighters/Squire/Sprites/Fall.png")
-    attack1_Squire_sprite_sheet = pygame.image.load("Assets/Fighters/Squire/Sprites/Attack1.png")
-    attack2_Squire_sprite_sheet = pygame.image.load("Assets/Fighters/Squire/Sprites/Attack3.png")
-    attack3_Squire_sprite_sheet = pygame.image.load("Assets/Fighters/Squire/Sprites/Attack4.png")
-    hit_Squire_sprite_sheet = pygame.image.load("Assets/Fighters/Squire/Sprites/Take Hit.png")
-    death_Squire_sprite_sheet = pygame.image.load("Assets/Fighters/Squire/Sprites/Death.png")
+    idle_Squire_sprite_sheet = pygame.image.load("Assets/Fighters/Squire/Idle.png")
+    run_Squire_sprite_sheet = pygame.image.load("Assets/Fighters/Squire/Run.png")
+    jump_Squire_sprite_sheet = pygame.image.load("Assets/Fighters/Squire/Jump.png")
+    fall_Squire_sprite_sheet = pygame.image.load("Assets/Fighters/Squire/Fall.png")
+    attack1_Squire_sprite_sheet = pygame.image.load("Assets/Fighters/Squire/Attack1.png")
+    attack2_Squire_sprite_sheet = pygame.image.load("Assets/Fighters/Squire/Attack3.png")
+    attack3_Squire_sprite_sheet = pygame.image.load("Assets/Fighters/Squire/Attack4.png")
+    hit_Squire_sprite_sheet = pygame.image.load("Assets/Fighters/Squire/Take Hit.png")
+    death_Squire_sprite_sheet = pygame.image.load("Assets/Fighters/Squire/Death.png")
 
-    idle_knight_sprite_sheet = pygame.image.load("Assets/Fighters/Knight/Sprites/Idle.png")
-    run_knight_sprite_sheet = pygame.image.load("Assets/Fighters/Knight/Sprites/Run.png")
-    jump_knight_sprite_sheet = pygame.image.load("Assets/Fighters/Knight/Sprites/Jump.png")
-    fall_knight_sprite_sheet = pygame.image.load("Assets/Fighters/Knight/Sprites/Fall.png")
-    attack1_knight_sprite_sheet = pygame.image.load("Assets/Fighters/Knight/Sprites/Attack.png")
-    attack2_knight_sprite_sheet = pygame.image.load("Assets/Fighters/Knight/Sprites/Attack.png")
-    hit_knight_sprite_sheet = pygame.image.load("Assets/Fighters/Knight/Sprites/Take Hit.png")
-    death_knight_sprite_sheet = pygame.image.load("Assets/Fighters/Knight/Sprites/Death.png")
+    idle_knight_sprite_sheet = pygame.image.load("Assets/Fighters/Knight/Idle.png")
+    run_knight_sprite_sheet = pygame.image.load("Assets/Fighters/Knight/Run.png")
+    jump_knight_sprite_sheet = pygame.image.load("Assets/Fighters/Knight/Jump.png")
+    fall_knight_sprite_sheet = pygame.image.load("Assets/Fighters/Knight/Fall.png")
+    attack1_knight_sprite_sheet = pygame.image.load("Assets/Fighters/Knight/Attack.png")
+    attack2_knight_sprite_sheet = pygame.image.load("Assets/Fighters/Knight/Attack.png")
+    hit_knight_sprite_sheet = pygame.image.load("Assets/Fighters/Knight/Take Hit.png")
+    death_knight_sprite_sheet = pygame.image.load("Assets/Fighters/Knight/Death.png")
 
-    idle_Huntress_sprite_sheet = pygame.image.load("Assets/Fighters/Huntress/Sprites/Character/Idle.png")
-    run_Huntress_sprite_sheet = pygame.image.load("Assets/Fighters/Huntress/Sprites/Character/Run.png")
-    jump_Huntress_sprite_sheet = pygame.image.load("Assets/Fighters/Huntress/Sprites/Character/Jump.png")
-    fall_Huntress_sprite_sheet = pygame.image.load("Assets/Fighters/Huntress/Sprites/Character/Fall.png")
-    attack_Huntress_sprite_sheet = pygame.image.load("Assets/Fighters/Huntress/Sprites/Character/Attack.png")
-    # projectile_Huntress_sprite_sheet = pygame.image.load("Assets/Fighters/Huntress/Sprites/Arrow/Static.png")
-    attack2_Huntress_sprite_sheet = pygame.image.load("Assets/Fighters/Huntress/Sprites/Character/Attack.png")
-    hit_Huntress_sprite_sheet = pygame.image.load("Assets/Fighters/Huntress/Sprites/Character/Get Hit.png")
-    death_Huntress_sprite_sheet = pygame.image.load("Assets/Fighters/Huntress/Sprites/Character/Death.png")
+    idle_Huntress_sprite_sheet = pygame.image.load("Assets/Fighters/Huntress/Idle.png")
+    run_Huntress_sprite_sheet = pygame.image.load("Assets/Fighters/Huntress/Run.png")
+    jump_Huntress_sprite_sheet = pygame.image.load("Assets/Fighters/Huntress/Jump.png")
+    fall_Huntress_sprite_sheet = pygame.image.load("Assets/Fighters/Huntress/Fall.png")
+    attack_Huntress_sprite_sheet = pygame.image.load("Assets/Fighters/Huntress/Attack.png")
+    # projectile_Huntress_sprite_sheet = pygame.image.load("Assets/Fighters/Huntress/Arrow/Static.png")
+    attack2_Huntress_sprite_sheet = pygame.image.load("Assets/Fighters/Huntress/Attack.png")
+    hit_Huntress_sprite_sheet = pygame.image.load("Assets/Fighters/Huntress/Get Hit.png")
+    death_Huntress_sprite_sheet = pygame.image.load("Assets/Fighters/Huntress/Death.png")
 
 
     return {
@@ -263,7 +263,7 @@ def fighter_variables() :
 
 def projectiles() :
     #function that has the data for each fighter projectile
-    projectile_sprite_sheet = pygame.image.load("Assets/Fighters/Huntress/Sprites/Arrow/Move.png")
+    projectile_sprite_sheet = pygame.image.load("Assets/Fighters/Huntress/Arrow/Move.png")
     projectile_animation_steps = [2]
 
     return {
@@ -271,12 +271,13 @@ def projectiles() :
     }
 
 def BackGrounds() :
-    background_image_1 = [pygame.image.load("Assets/BackGrounds/trees.jpg"), -200]
-    background_image_2 = [pygame.image.load("Assets/BackGrounds/Pixel_Landscapes/Landscape_17.png"), -150]
-    background_image_3 = [pygame.image.load("Assets/BackGrounds/Pixel_Landscapes/Landscape_49.png"), -150]
-    background_image_4 = [pygame.image.load("Assets/BackGrounds/Pixel_Landscapes/Landscape_41.png"), -150]
-    background_image_5 = [pygame.image.load("Assets/BackGrounds/Pixel_Landscapes/Landscape_29.png"), -193]
-    images = [background_image_1, background_image_2, background_image_3, background_image_4, background_image_5]
+    background1 = [pygame.image.load("Assets/BackGrounds/Landscape1.jpg"), -200]
+    background2 = [pygame.image.load("Assets/BackGrounds/Landscape2.png"), -150]
+    background3 = [pygame.image.load("Assets/BackGrounds/Landscape3.png"), -150]
+    background4 = [pygame.image.load("Assets/BackGrounds/Landscape4.png"), -150]
+    background5 = [pygame.image.load("Assets/BackGrounds/Landscape5.png"), -193]
+    background6 = [pygame.image.load("Assets/BackGrounds/Landscape6.png"), -150]
+    images = [background1, background2, background3, background4, background5, background6]
 
     return images
 
