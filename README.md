@@ -53,7 +53,7 @@ The first to deplete the opponent's health bar wins the round. If neither fighte
 ### Pause Menu
 Need a break? The menu allows you to resume, restart, or quit the game at any time.
 
-![Pause Menu](screenshots/pause_menu.jpg)
+![Pause Menu](screenshots/pause_menu.png)
 
 ## Characters
 
