@@ -50,6 +50,11 @@ The first to deplete the opponent's health bar wins the round. If neither fighte
 
 ![Victory Screen](Assets/Screenshots/victory.jpg)
 
+### Pause Menu
+Need a break? The menu allows you to resume, restart, or quit the game at any time.
+
+![Pause Menu](Assets/Screenshots/pause_menu.jpg)
+
 ## Characters
 
 A selection screen allows you to choose your avatar. Although base damage is identical, the playstyle differs depending on the class:
