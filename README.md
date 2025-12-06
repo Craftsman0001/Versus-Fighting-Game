@@ -121,8 +121,6 @@ The game is played by two players on the same keyboard.
 
 This project uses an Object-Oriented structure to manage game entities. 
 
-[Image of class diagram showing attributes and methods]
-
 
 - **`main.py`**: Game entry point. Manages the main loop, different states (Menu, Combat, Pause), and global display.
 - **`fighter.py`**: Defines the parent class `Fighter`. Manages physics, movement, and melee combat logic.
