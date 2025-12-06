@@ -13,7 +13,7 @@
 > [!NOTE] 
 > This game was created as a 2nd-year preparatory class project at [Polytech Dijon](https://polytech.ube.fr) **PeiP (2023-2024)**.
 
-![Main Menu](Assets/Screenshots/main_menu.jpg)
+![Main Menu](Screenshots/main_menu.jpg)
 
 ## Table of Contents
 1. [Features](#-features)
@@ -43,23 +43,23 @@
 ### Combat
 The game includes a countdown and a 120-second timer per round.
 
-![Gameplay Countdown](Assets/Screenshots/countdown.jpg)
+![Gameplay Countdown](Screenshots/countdown.jpg)
 
 ### Victory
 The first to deplete the opponent's health bar wins the round. If neither fighter dies, the one with the most health wins.
 
-![Victory Screen](Assets/Screenshots/victory.jpg)
+![Victory Screen](Screenshots/victory.jpg)
 
 ### Pause Menu
 Need a break? The menu allows you to resume, restart, or quit the game at any time.
 
-![Pause Menu](Assets/Screenshots/pause_menu.jpg)
+![Pause Menu](Screenshots/pause_menu.jpg)
 
 ## Characters
 
 A selection screen allows you to choose your avatar. Although base damage is identical, the playstyle differs depending on the class:
 
-![Character Selection](Assets/Screenshots/player_select.jpg)
+![Character Selection](Screenshots/player_select.jpg)
 
 - **Melee:** The majority of fighters (Samurai, Knight, Wizard...) must get close to hit. Their attack animations have varied speeds.
 - **Ranged:** The **Huntress** possesses a unique mechanic: she fires projectiles across the screen, ideal for keeping the opponent at a distance.
@@ -70,11 +70,11 @@ Mana management is strategic and rewards aggressiveness while offering passive i
 
 1.  **Accumulation:** The purple gauge fills gradually over time, and gains a significant bonus with each hit on the opponent.
 
-    ![Health and mana bar](Assets/Screenshots/health_and_mana_bar.png)
+    ![Health and mana bar](Screenshots/health_and_mana_bar.png)
 
 2.  **Activation :** Once the gauge is maxed out, it changes color. You can then activate a Boost that doubles your damage on the next attack !
 
-    ![Full mana bar](Assets/Screenshots/full_mana_bar.png)
+    ![Full mana bar](Screenshots/full_mana_bar.png)
 
 ## Controls
 
