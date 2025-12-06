@@ -16,14 +16,14 @@
 ![Main Menu](screenshots/main_menu.png)
 
 ## Table of Contents
-1. [Features](#-features)
-2. [Game Overview](#-game-overview)
-3. [Characters](#-characters)
-4. [Mana System](#-mana-system)
-5. [Controls](#-controls)
-6. [Installation](#-installation)
-7. [Code Architecture](#-code-architecture)
-8. [Credits & License](#-credits--license)
+1. [Features](#features)
+2. [Game Overview](#game-overview)
+3. [Characters](#characters)
+4. [Mana System](#mana-system)
+5. [Controls](#controls)
+6. [Installation](#installation)
+7. [Code Architecture](#code-architecture)
+8. [Credits & License](#credits--license)
 
 ## Features
 
